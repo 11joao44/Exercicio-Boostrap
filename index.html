@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/lib/bootstrap.min.css">
+    <title>Pagina de vendas</title>
+    <style>
+
+        body {
+            background: #303030;
+            color: #fff;
+        }
+
+        .navbar {
+            margin-bottom: 25px;
+        }
+
+        .row {
+            margin-top: 35px;
+        }
+
+        .col {
+            margin-bottom: 24px;
+            width: 416px;
+        }
+
+        .card-img-overlay {
+            background: linear-gradient(to bottom,rgba(0, 0, 0, 0.700), transparent);
+        }
+
+        @media screen and (max-width: 1023px) {
+            .col {
+                width: 336px;
+            }
+
+            .card h4 {
+            font-size: 20px;
+            }
+
+            .card a {
+                font-size: 12px;
+                padding: 6px;
+
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+        <!-- Cabeçalho -->
+        <header id="header">
+            <div class="navbar justify-content-center">
+                    <h1>Blue Snow Games</h1>
+             </div>       
+
+    <!-- Carrousel de imagens-->
+    <div id="slide-carousel" class="carousel carousel-fade slide" data-bs-ride="carousel">
+        <h2>Jogos em Destaque</h2>
+        <div class="carousel-inner">
+            <div data-bs-interval="2500" class="carousel-item active">
+                <img class="d-block w-100" src="https://cdn.akamai.steamstatic.com/steam/apps/1817190/header.jpg?t=1672784176" alt="Spider-Man">
+                <div class="carousel-caption">
+                    <h2>Spider-Man</h2>
+                </div>
+            </div>
+            <div data-bs-interval="2500" class="carousel-item">
+                <img class="d-block w-100" src="https://cdn.akamai.steamstatic.com/steam/apps/1332010/header.jpg?t=1670349423" alt="Stray">
+                <div class="carousel-caption">
+                    <h2>Stray</h2>
+                </div>
+            </div>
+            <div data-bs-interval="2500" class="carousel-item">
+                <img class="d-block w-100" src="https://cdn.akamai.steamstatic.com/steam/apps/990080/header.jpg?t=1668268562" alt="Hogwats Legacy">
+                <div class="carousel-caption">
+                    <h2>Hogwarts Legacy</h2>
+                </div>
+            </div>
+            <div data-bs-interval="2500" class="carousel-item">
+                <img class="d-block w-100" src="https://cdn.akamai.steamstatic.com/steam/apps/1174180/header.jpg?t=1671485009" alt="Red Dead Redemption 2">
+                <div class="carousel-caption">
+                    <h2>Red Dead Redemption 2</h2>
+                </div>
+            </div>
+            <div data-bs-interval="2500" class="carousel-item">
+                <img class="d-block w-100" src="https://cdn.akamai.steamstatic.com/steam/apps/1245620/header.jpg?t=1672223247" alt="Elden Ring">
+                <div class="carousel-caption">
+                    <h2>Elden Ring</h2>
+                </div>
+            </div>
+            <div data-bs-interval="2500" class="carousel-item">
+                <img class="d-block w-100" src="https://cdn.akamai.steamstatic.com/steam/apps/814380/header.jpg?t=1669076148" alt="Sekiro">
+                <div class="carousel-caption">
+                    <h2>Sekiro</h2>
+                </div>
+            </div>
+        </div>
+        <button data-bs-target="#slide-carousel" data-bs-slide="prev" class="carousel-control-prev" type="button">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button data-bs-target="#slide-carousel" data-bs-slide="next" class="carousel-control-next" type="button">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#slide-carousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#slide-carousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#slide-carousel" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#slide-carousel" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#slide-carousel" data-bs-slide-to="4"></button>
+            <button type="button" data-bs-target="#slide-carousel" data-bs-slide-to="5"></button>
+        </div>
+    </div>
+
+    <!-- Grids -->
+    <div class="row">
+            <h2>Games em Promoção</h2>
+            <div class="col">
+                <div class="card text-bg-dark">
+                    <img src="https://images.greenmangaming.com/c18a6b581b2d49488cd2e342ee5dc475/54f139ac380744caab93fdad1f6fa7bd.jpg" alt="Guardiões das Galaxias">
+                    <div class="card-img-overlay">
+                        <h4 class="card-tittle">Guardiões das Galaxias</h4>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-dark">
+                    <img src="https://images.greenmangaming.com/610afb3324cf479980995069ef730b0c/86d71d23c76746b98b20617efd55c98d.jpg" alt="Gotham Knights">
+                    <div class="card-img-overlay">
+                        <h4 class="card-tittle">Gotham Knights</h4>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-dark">
+                    <img src="https://cdn.akamai.steamstatic.com/steam/apps/1237320/header.jpg?t=1671712363" alt="Sonic Frontiers">
+                    <div class="card-img-overlay">
+                        <h4 class="card-tittle">Sonic Frontiers</h4>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-dark">
+                    <img src="https://cdn.akamai.steamstatic.com/steam/apps/1659420/header_brazilian.jpg?t=1672777947" alt="UNCHARTED™ 4">
+                    <div class="card-img-overlay">
+                        <h4 class="card-tittle">UNCHARTED™ 4</h4>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-dark">
+                    <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/368260/header.jpg?t=1671733540" alt="Marvel's Midnight Suns">
+                    <div class="card-img-overlay">
+                        <h4 class="card-tittle">Marvel's Midnight Suns</h4>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-dark">
+                    <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2215260/header.jpg?t=1672941250" alt="Scott Pilgrim vs. The World">
+                    <div class="card-img-overlay">
+                        <h4 class="card-tittle">Scott Pilgrim vs. The World™</h4>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+     </div>
+</div>
+
+    <script src="/lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
